@@ -1,0 +1,16 @@
+.header__block {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+}
+
+.logo {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content 430px;
+  text-decoration: none;
+}
+.logo__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}

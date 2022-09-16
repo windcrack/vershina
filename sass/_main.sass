@@ -1,0 +1,157 @@
+.hero
+    margin-bottom: 95px
+    h1
+        text-align: center
+        padding-top: 32px
+
+    &__footer
+        display: flex
+        justify-content: center
+        align-items: center
+        column-gap: 12px
+
+        &-link
+            color: inherit
+            font-weight: 400
+            font-size: 24px
+            line-height: 29px
+
+.rating
+    display: grid
+    grid-template-columns: repeat(auto-fit, 351px)
+    grid-template-rows: repeat(2, max-content)
+    column-gap: 30px
+    align-items: center
+    margin-bottom: 26px
+
+    h3
+        text-align: center
+        grid-row: 1
+        grid-column: 1 / 4
+
+    &__block
+        display: grid
+        position: relative
+        grid-template-rows: 125px
+
+        &:before
+            content: ""
+            position: absolute
+            background: $blackRGBA
+            width: 100%
+            height: 100%
+            inset: 0
+            z-index: 2
+    &__img
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 1
+
+    &__text
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        z-index: 2
+        color: $white
+        font-weight: 400
+        font-size: 24px
+        line-height: 29px
+        text-shadow: 0px 4px 4px rgba(27, 163, 207, 0.25)
+        text-decoration: none
+
+    &__star
+
+        width: 25px
+        height: 23px
+.desription
+    margin-bottom: 44px
+
+.slider-main
+    margin-bottom: 84px
+    img
+        object-fit: cover
+        height: 669px
+.our-services
+    display: grid
+    margin-bottom: 91px
+    &__lists
+        display: grid
+        row-gap: 32px
+        margin-bottom: 46px
+
+    &__body
+        display: grid
+        grid-auto-flow: column
+        align-items: center
+        justify-content: space-around
+        padding: 11px 0
+        background: $greenRGBA
+        box-shadow: $blackShadow
+    &__title
+        font-weight: 700
+        font-size: 18px
+        line-height: 22px
+        text-decoration: none
+        color: inherit
+    &__amount
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+    button
+        align-self: center
+        margin: 0 auto
+.reviews
+    display: grid
+    padding-bottom: 91px
+    &__lists
+        display: grid
+        grid-template-columns: repeat(auto-fit, 349px)
+        justify-content: space-between
+        margin-bottom: 32px
+    &__body
+        background: $greenRGBA3
+        border-radius: 15px
+        padding: 10px 10px 17px
+    &__header
+        display: grid
+        grid-template: repeat(3, min-content) / repeat(2, max-content)
+        column-gap: 18px
+        margin-bottom: 7px
+        &-img
+            grid-row: 1 / 4
+            grid-column: 1 / 2
+            border-radius: 50%
+    &__specialist
+        color: $blue
+        font-weight: 500
+        font-size: 13px
+        line-height: 16px
+        margin-bottom: 7px
+    &__text
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+    button
+        margin: 0 auto
+
+.name, .grade
+    font-size: 18px
+    line-height: 22px
+    color: #000
+.grade
+    display: flex
+    align-items: center
+    column-gap: 12px
+    font-weight: 500
+
+    &__body
+        list-style: none
+        display: grid
+        grid-auto-flow: column
+        grid-auto-columns: min-content
+        column-gap: 6px
+    &__img
+        width: 16px
+        height: 15px

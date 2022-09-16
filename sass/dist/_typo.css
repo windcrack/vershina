@@ -1,0 +1,28 @@
+.typo h1, .typo h2, .typo h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.typo h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+}
+.typo h2 {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+}
+.typo h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+.typo p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 26px;
+}
+.typo p:last-of-type {
+  margin-bottom: 0;
+}

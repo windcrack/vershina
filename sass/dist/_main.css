@@ -1,0 +1,29 @@
+.hero h1 {
+  text-align: center;
+  padding-top: 32px;
+  margin-bottom: 24px;
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, max-content);
+  column-gap: 30px;
+  align-items: center;
+}
+.rating h3 {
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/4;
+  margin-bottom: 7px;
+}
+.rating__block {
+  display: grid;
+}
+.rating__img::before {
+  content: "";
+}
+.rating__star {
+  width: 25px;
+  height: 23px;
+}

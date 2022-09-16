@@ -1,0 +1,6 @@
+.main-photo {
+  height: 357px;
+}
+.main-photo img {
+  object-fit: cover;
+}

@@ -1,0 +1,53 @@
+.header
+    &__block
+        display: grid
+        grid-template-columns: repeat(2, max-content)
+        padding: 49px 0 32px
+        justify-content: space-between
+
+.logo
+    display: grid
+    grid-auto-flow: column
+    grid-template-columns: max-content 430px
+    column-gap: 10px
+    text-decoration: none
+    font-size: 24px
+    line-height: 29px
+
+    &__text
+        font-weight: 400
+        color: $black
+    &__address
+        font-weight: 500
+.call
+    display: grid
+    font-size: 24px
+    line-height: 29px
+    &__title
+        font-weight: 400
+    &__phone
+        text-decoration: none
+        color: inherit
+        font-size: 24px
+        margin-bottom: 10px
+.nav-top
+    background: $white
+    padding: 31px 0
+
+    &__items
+        display: grid
+        grid-auto-columns: min-content
+        grid-auto-flow: column
+        column-gap: 31px
+        list-style: none
+
+    &__link
+        color: inherit
+        font-weight: 400
+        font-size: 24px
+        line-height: 29px
+        text-decoration: none
+.main-photo
+    height: 357px
+    img
+        object-fit: cover
