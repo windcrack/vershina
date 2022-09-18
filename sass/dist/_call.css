@@ -1,0 +1,9 @@
+.call-block {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+.call-block__img {
+  width: 26px;
+  height: 26px;
+}

@@ -76,6 +76,7 @@
 .our-services
     display: grid
     margin-bottom: 91px
+
     &__lists
         display: grid
         row-gap: 32px
@@ -89,6 +90,9 @@
         padding: 11px 0
         background: $greenRGBA
         box-shadow: $blackShadow
+        transition: all .5s
+        &:hover
+            clip-path: polygon(2.5% 0, 100% 0%, 100% 100%, 0 100%, 0% 35%)
     &__title
         font-weight: 700
         font-size: 18px
