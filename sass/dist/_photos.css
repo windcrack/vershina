@@ -1,0 +1,15 @@
+.photos-main {
+  display: grid;
+  row-gap: 38px;
+  margin-bottom: 65px;
+}
+.photos-main__img {
+  object-fit: cover;
+  height: 500px;
+  margin-bottom: 10px;
+}
+.photos-main__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}

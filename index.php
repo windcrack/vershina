@@ -1,62 +1,4 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Врешина</title>
-    <link rel="stylesheet" href="sass/index.css">
-</head>
-
-<body>
-    <header>
-        <div class="container container--no-color header__block">
-            <a href="#" class="logo">
-                <img src="img/logo.png" alt="Вершина Смоленск">
-                <div class="logo__text">
-                    Центр реабилитации: лечение алкоголизма и наркомании
-                    <div class="logo__address">г Смоленск, ул.Тенишевой, 22</div>
-                </div>
-            </a>
-            <div class="call">
-                <span class="call__title" aria-label="label">Круглосуточ и ананимно:</span>
-                <a class="call__phone" href="tel:+74812294454">+7(481) 229-44-54</a>
-                <button class="btn btn__call">Заказать звонок</button>
-            </div>
-        </div>
-    </header>
-    <nav class="nav-top">
-        <ul class="nav-top__items container">
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Услуги</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Фото</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Специалисты</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Отзывы</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Цены</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Контакты</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Родственикам</a>
-            </li>
-            <li class="nav-top__item">
-                <a href="" class="nav-top__link">Пациентам</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="main-photo container">
-        <img src="img/headerImg.jpg" alt="Главное фото">
-    </div>
+<?php include_once 'template/header.php' ?>
     <main class="container typo">
         <section class="hero">
             <h1>Наркологический центр Вершина Смоленск</h1>
@@ -130,7 +72,7 @@
                     <a href="#" class="btn btn__service">Подробнее</a>
                 </div>
             </div>
-            <button class="btn btn__our-services">Посмотреть все услуги</button>
+            <a href="#" class="btn btn__our-services">Посмотреть все услуги</a>
         </section>
         <section class="reviews">
             <h2>Отзывы о нас:</h2>
@@ -265,24 +207,7 @@
                         свежий взгляд на привычные вещи — безусловно открывает.</div>
                 </div>
             </div>
-            <button class="btn btn__reviews">Подробнее</button>
+            <a href="#" class="btn btn__reviews">Подробнее</a>
         </section>
     </main>
-    <footer>
-
-    </footer>
-    <!-- Modal -->
-    <!-- SVG -->
-
-    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 23" id="star-img">
-                <path
-                    d="M12.5 0L15.3064 8.63729H24.3882L17.0409 13.9754L19.8473 22.6127L12.5 17.2746L5.15268 22.6127L7.95911 13.9754L0.611794 8.63729H9.69357L12.5 0Z"
-                    fill="#FFFF00" />
-            </symbol>
-        </defs>
-    </svg>
-</body>
-
-</html>
+<?php include_once 'template/footer.php' ?>
