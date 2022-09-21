@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="container container--no-color header__block">
-            <a href="#" class="logo">
+            <a href="/" class="logo">
                 <img src="img/logo.png" alt="Вершина Смоленск">
                 <div class="logo__text">
                     Центр реабилитации: лечение алкоголизма и наркомании
@@ -29,13 +29,13 @@
     <nav class="nav-top">
         <ul class="nav-top__items container">
             <li class="nav-top__item">
-                <a href="/" class="nav-top__link">Услуги</a>
+                <a href="our-services.php" class="nav-top__link">Услуги</a>
             </li>
             <li class="nav-top__item">
-                <a href="photos.html" class="nav-top__link">Фото</a>
+                <a href="photos.php" class="nav-top__link">Фото</a>
             </li>
             <li class="nav-top__item">
-                <a href="" class="nav-top__link">Специалисты</a>
+                <a href="specialist.php" class="nav-top__link">Специалисты</a>
             </li>
             <li class="nav-top__item">
                 <a href="" class="nav-top__link">Отзывы</a>
