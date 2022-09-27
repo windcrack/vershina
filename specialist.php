@@ -10,51 +10,51 @@
             <div class="our-specialist__item">
                 <img src="img/specialist/img2.jpg" alt="" class="our-specialist__item-img">
                 <div class="our-specialist__info">
-                    <a href="#" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
+                    <a href="specialist-card.php" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
                     <span class="our-specialist__item-prof">Писхолог</span>
                     <div class="our-specialist__item-education">Образование:Ростовский государственный медицинский университет (психиатрия-наркология).</div>
                     <div class="our-specialist__item-experience">Стаж работы: 1 год</div>
-                    <a href="#" class="btn btn__our-specialist">Подробнее</a>
+                    <a href="specialist-card.php" class="btn btn__our-specialist">Подробнее</a>
                 </div>
             </div>
             <div class="our-specialist__item">
                 <img src="img/specialist/img2.jpg" alt="" class="our-specialist__item-img">
                 <div class="our-specialist__info">
-                    <a href="#" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
+                    <a href="specialist-card.php" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
                     <span class="our-specialist__item-prof">Писхолог</span>
                     <div class="our-specialist__item-education">Образование:Ростовский государственный медицинский университет (психиатрия-наркология).</div>
                     <div class="our-specialist__item-experience">Стаж работы: 1 год</div>
-                    <a href="#" class="btn btn__our-specialist">Подробнее</a>
+                    <a href="specialist-card.php" class="btn btn__our-specialist">Подробнее</a>
                 </div>
             </div>
             <div class="our-specialist__item">
                 <img src="img/specialist/img2.jpg" alt="" class="our-specialist__item-img">
                 <div class="our-specialist__info">
-                    <a href="#" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
+                    <a href="specialist-card.php" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
                     <span class="our-specialist__item-prof">Писхолог</span>
                     <div class="our-specialist__item-education">Образование:Ростовский государственный медицинский университет (психиатрия-наркология).</div>
                     <div class="our-specialist__item-experience">Стаж работы: 1 год</div>
-                    <a href="#" class="btn btn__our-specialist">Подробнее</a>
+                    <a href="specialist-card.php" class="btn btn__our-specialist">Подробнее</a>
                 </div>
             </div>
             <div class="our-specialist__item">
                 <img src="img/specialist/img2.jpg" alt="" class="our-specialist__item-img">
                 <div class="our-specialist__info">
-                    <a href="#" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
+                    <a href="specialist-card.php" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
                     <span class="our-specialist__item-prof">Писхолог</span>
                     <div class="our-specialist__item-education">Образование:Ростовский государственный медицинский университет (психиатрия-наркология).</div>
                     <div class="our-specialist__item-experience">Стаж работы: 1 год</div>
-                    <a href="#" class="btn btn__our-specialist">Подробнее</a>
+                    <a href="specialist-card.php" class="btn btn__our-specialist">Подробнее</a>
                 </div>
             </div>
             <div class="our-specialist__item">
                 <img src="img/specialist/img2.jpg" alt="" class="our-specialist__item-img">
                 <div class="our-specialist__info">
-                    <a href="#" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
+                    <a href="specialist-card.php" class="our-specialist__name">Курбанов Руслан Магомедсаидович</a>
                     <span class="our-specialist__item-prof">Писхолог</span>
                     <div class="our-specialist__item-education">Образование:Ростовский государственный медицинский университет (психиатрия-наркология).</div>
                     <div class="our-specialist__item-experience">Стаж работы: 1 год</div>
-                    <a href="#" class="btn btn__our-specialist">Подробнее</a>
+                    <a href="specialist-card.php" class="btn btn__our-specialist">Подробнее</a>
                 </div>
             </div>
         </div>

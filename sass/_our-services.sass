@@ -1,0 +1,104 @@
+.services
+    display: grid
+
+    &__title
+        margin: 32px 0 14px
+
+    &__filter
+        background: $bgColor
+        padding: 14px 3px
+        margin-bottom: 50px
+        .filter
+            &__lists
+                display: flex
+                list-style: none
+                gap: 25px
+            &__body
+                position: relative
+
+                &::after
+                    content: "|"
+                    position: absolute
+                    left: -17px
+                    font-weight: 900
+                &:first-of-type
+                    &::after
+                        content: none
+            &__text
+                background: transparent
+                border: none
+                font-weight: 700
+                font-size: 18px
+                line-height: 22px
+                cursor: pointer
+    &__lists
+        display: grid
+
+    &__block
+        display: grid
+        grid-template-columns: 28% 72%
+        grid-template-areas: "title title" "img price" "img text"
+        background: $greenRGBA
+        padding: 7px 20px 23px
+        margin-bottom: 50px
+        border-radius: 25px
+
+        &-img
+            grid-area: img
+            border-radius: 20px
+
+        &-title
+            grid-area: title
+            justify-self: center
+            font-weight: 700
+            font-size: 32px
+            line-height: 39px
+            text-transform: uppercase
+            color: $white
+            margin-bottom: 7px
+        &-sales
+            grid-area: price
+            border: 2px solid #fff
+            background: $green
+            border-radius: 20px
+            color: $white
+            padding: 10px 0 23px
+            display: flex
+            justify-content: space-around
+            flex-flow: wrap
+            max-height: 113px
+            margin-left: 25px
+            margin-bottom: 15px
+        &-descr
+            grid-area: text
+            border: 2px solid #FFFFFF
+            border-radius: 20px
+            background: $green
+            padding: 10px 0 46px
+            display: flex
+            justify-content: center
+            flex-flow: wrap
+            margin-left: 25px
+            .services__block-text
+                font-weight: 500
+                font-size: 24px
+                line-height: 29px
+        &-text
+            font-weight: 400
+            font-size: 20px
+            line-height: 24px
+            text-align: center
+            margin-bottom: 19px
+            flex-basis: 100%
+
+        &-start, &-end
+            font-weight: 400
+            font-size: 32px
+            line-height: 39px
+            display: flex
+            align-items: center
+        &-all
+            font-weight: 500
+            font-size: 24px
+            line-height: 29px
+            max-width: 691px
