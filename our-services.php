@@ -39,6 +39,19 @@
                     <div class="services__block-all">Наше дело не так однозначно, как может показаться: высокотехнологичная концепция общественного уклада предоставляет широкие возможности для инновационных методов управления</div>
                 </div>
             </div>
+            <div class="services__block">
+                <h3 class="services__block-title">наркологическая клиника</h3>
+                <img src="img/our-services/img1.png" alt="" class="services__block-img">
+                <div class="services__block-sales">
+                    <div class="services__block-text">Стоимость:</div>
+                    <div class="services__block-start">от 20 000 <img src="img/svg/rub.svg" alt="Валюта"></div>
+                    <div class="services__block-end">до 40 000 <img src="img/svg/rub.svg" alt="Валюта"></div>
+                </div>
+                <div class="services__block-descr">
+                    <div class="services__block-text">Описание:</div>
+                    <div class="services__block-all">Наше дело не так однозначно, как может показаться: высокотехнологичная концепция общественного уклада предоставляет широкие возможности для инновационных методов управления</div>
+                </div>
+            </div>
         </div>
     </section>
 </main>

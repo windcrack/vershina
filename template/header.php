@@ -38,7 +38,7 @@
                 <a href="specialist.php" class="nav-top__link">Специалисты</a>
             </li>
             <li class="nav-top__item">
-                <a href="" class="nav-top__link">Отзывы</a>
+                <a href="reviews.php" class="nav-top__link">Отзывы</a>
             </li>
             <li class="nav-top__item">
                 <a href="our-services.php" class="nav-top__link">Цены</a>
