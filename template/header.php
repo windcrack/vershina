@@ -44,7 +44,7 @@
                 <a href="our-services.php" class="nav-top__link">Цены</a>
             </li>
             <li class="nav-top__item">
-                <a href="" class="nav-top__link">Контакты</a>
+                <a href="contacts.php" class="nav-top__link">Контакты</a>
             </li>
             <li class="nav-top__item">
                 <a href="" class="nav-top__link">Родственикам</a>
