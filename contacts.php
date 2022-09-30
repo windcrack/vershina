@@ -2,27 +2,32 @@
 
 <main class="container">
     <section class="contacts">
-        <h1 class="title-main">Контакты и место рассположение</h1>
-        <div class="contact__address">
-            <p>Где мы находимся:</p>
+        <h1 class="title-main contacts__title">Контакты и место рассположение</h1>
+        <div class="contacts__address">
+            <div class="contacts__address-title" style="background: url('img/svg/point.svg') no-repeat left;">Где мы находимся:</div>
             <address>г Смоленск, ул.Тенишевой, 22</address>
         </div>
-        <div class="contact__phones">
-            <p>Телефоны для связи:</p>
+        <div class="contacts__phones">
+            <div class="contacts__phones-title" style="background: url('img/svg/phone.svg') no-repeat left;">Телефоны для связи:</div>
             <a href="tel:7(481) 229-44-54">7(481) 229-44-54</a>
             <a href="tel:8-800-200-40-30">8-800-200-40-30</a>
         </div>
     </section>
-    <section class="contact-form">
+    <section class="contacts-form">
         <h2 class="title-second">Мы на связи</h2>
         <p>Оставьте свою заявку, и мы свяжемся с Вами</p>
-        <form action="" class="contact-form__body">
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Кто обращается">
-            <input type="tel" placeholder="Номер телефона">
+        <form action="" class="contacts-form__body">
+            <input type="text" class="contacts-form__input" placeholder="Ваше имя">
+            <div class="contacts-form__input_block">
+                <input type="text" class="contacts-form__input" placeholder="Кто обращается">
+                <div class="contacts-form__input-img" data-title="Возможн указать вымешленное имя по которму наши специалисты будут обращатся к Вам">
+                    <img src="img/svg/quest.svg" alt="" />
+                </div>
+            </div>
+            <input type="tel" class="contacts-form__input" placeholder="Номер телефона">
             <textarea name="" id="" cols="30" rows="10" placeholder="Опишите Ваш запрос"></textarea>
             <small>Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных в соответсвии с Политикой конфеденциальности</small>
-            <button type="submit" class="btn">Отправить</button>
+            <button type="submit" class="contacts-form__btn">Отправить</button>
         </form>
     </section>
     <section>

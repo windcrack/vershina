@@ -33,7 +33,9 @@
 .nav-top
     background: $white
     padding: 31px 0
-
+    position: sticky
+    top: 0
+    z-index: 1000
     &__items
         display: grid
         grid-auto-columns: min-content
@@ -48,6 +50,9 @@
         line-height: 29px
         text-decoration: none
 .main-photo
-    height: 357px
+    background: $white
+
     img
         object-fit: cover
+        margin-bottom: 32px
+        height: 357px

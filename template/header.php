@@ -47,10 +47,10 @@
                 <a href="contacts.php" class="nav-top__link">Контакты</a>
             </li>
             <li class="nav-top__item">
-                <a href="" class="nav-top__link">Родственикам</a>
+                <a href="relatives.php" class="nav-top__link">Родственикам</a>
             </li>
             <li class="nav-top__item">
-                <a href="" class="nav-top__link">Пациентам</a>
+                <a href="patients.php" class="nav-top__link">Пациентам</a>
             </li>
         </ul>
     </nav>
