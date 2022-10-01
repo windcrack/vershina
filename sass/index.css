@@ -96,17 +96,32 @@
 .typo h1 {
   font-size: 48px;
   font-weight: 500;
-  line-height: 58px;
+  line-height: 130%;
+}
+@media (max-width: 850px) {
+  .typo h1 {
+    font-size: 40px;
+  }
 }
 .typo h2 {
   font-weight: 500;
   font-size: 46px;
-  line-height: 56px;
+  line-height: 130%;
+}
+@media (max-width: 850px) {
+  .typo h2 {
+    font-size: 36px;
+  }
 }
 .typo h3 {
   font-weight: 400;
   font-size: 36px;
-  line-height: 44px;
+  line-height: 120%;
+}
+@media (max-width: 850px) {
+  .typo h3 {
+    font-size: 26px;
+  }
 }
 .typo p {
   font-weight: 400;
@@ -152,8 +167,13 @@ body {
 .title-main {
   font-weight: 500;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 150%;
   text-align: center;
+}
+@media (max-width: 850px) {
+  .title-main {
+    font-size: 36px;
+  }
 }
 
 .hide {
@@ -163,7 +183,12 @@ body {
 .title-second {
   font-weight: 500;
   font-size: 46px;
-  line-height: 56px;
+  line-height: 150%;
+}
+@media (max-width: 850px) {
+  .title-second {
+    font-size: 34px;
+  }
 }
 .title-second--hide {
   display: none;
@@ -300,6 +325,7 @@ body {
   border-radius: 10px;
   font-size: 22px;
   padding: 12px 16px;
+  color: inherit;
 }
 .mob-menu__lists {
   list-style: none;
@@ -545,6 +571,12 @@ body {
   bottom: 5rem;
   right: 10rem;
 }
+@media (max-width: 850px) {
+  .call-block {
+    right: 2rem;
+    bottom: 2rem;
+  }
+}
 .call-block__body {
   background: #3ECA78;
   width: 54px;
@@ -709,10 +741,15 @@ body {
   justify-self: center;
   font-weight: 700;
   font-size: 32px;
-  line-height: 39px;
+  line-height: 110%;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 7px;
+}
+@media (max-width: 850px) {
+  .services__block-title {
+    font-size: 24px;
+  }
 }
 .services__block-sales, .services__block-descr {
   margin-left: 25px;
@@ -734,6 +771,11 @@ body {
   flex-flow: wrap;
   max-height: 113px;
   margin-bottom: 15px;
+}
+@media (max-width: 850px) {
+  .services__block-sales {
+    max-height: 100%;
+  }
 }
 .services__block-descr {
   grid-area: text;
@@ -1175,6 +1217,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  color: inherit;
 }
 @media (max-width: 850px) {
   .contacts-form__btn {
