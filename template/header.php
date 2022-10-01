@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Врешина</title>
     <link rel="stylesheet" href="sass/index.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
     <header>
         <div class="container container--no-color header__block">
             <a href="/" class="logo">
-                <img src="img/logo.png" alt="Вершина Смоленск">
+                <img class="logo__img" src="img/logo.png" alt="Вершина Смоленск">
                 <div class="logo__text">
                     Центр реабилитации: лечение алкоголизма и наркомании
                     <div class="logo__address">г Смоленск, ул.Тенишевой, 22</div>
@@ -53,6 +55,12 @@
                 <a href="patients.php" class="nav-top__link">Пациентам</a>
             </li>
         </ul>
+        <div class="mob-menu">
+            <button class="mob-menu__btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="mob-menu__lists hide"></ul>
+        </div>
     </nav>
     <div class="main-photo container">
         <img src="img/headerImg.jpg" alt="Главное фото">

@@ -27,6 +27,7 @@
             </symbol>
         </defs>
     </svg>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
