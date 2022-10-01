@@ -1262,6 +1262,12 @@ body {
   text-decoration: none;
   margin-bottom: 46px;
 }
+@media (max-width: 850px) {
+  .relative-questions__link {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+}
 .relative-addiction .title-second {
   text-align: center;
 }
@@ -1308,4 +1314,8 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+
+.patients__title {
+  margin-bottom: 21px;
 }/*# sourceMappingURL=index.css.map */
