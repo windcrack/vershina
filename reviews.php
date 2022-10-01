@@ -148,7 +148,7 @@
             </div>
         </div>
     </section>
-    <section class="reviews-form">
+    <!-- <section class="reviews-form">
         <form action="" class="reviews-form__body">
             <input type="text" class="reviews-form__input" placeholder="Ваше имя">
             <div class="grade">
@@ -186,7 +186,7 @@
             </select>
             <textarea class="reviews-form__textarea" placeholder="Ваш отзыв"></textarea>
         </form>
-    </section>
+    </section> -->
 </main>
 
 
