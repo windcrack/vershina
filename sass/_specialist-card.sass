@@ -5,6 +5,10 @@
         line-height: 73px
         text-decoration-line: underline
         margin-bottom: 41px
+        @media (max-width: $mobile)
+            font-size: 36px
+            line-height: 50px
+            margin-bottom: 12px
     &__lists
         list-style-position: inside
         font-weight: 500
@@ -16,26 +20,35 @@
     &__body
         padding: 0 5px
     &-header
-        padding-top: 65px
+
         display: grid
         margin-bottom: 36px
         grid-template-columns: repeat(2, 1fr)
         font-weight: 500
-
+        @media (max-width: $mobile)
+            grid-template-columns: 1fr
         &__img
 
         &__title
             font-size: 96px
             line-height: 116px
+            @media (max-width: $mobile)
+                font-size: 60px
+                line-height: 90px
         &__subTitle
             font-size: 48px
             line-height: 58.09px
             margin-bottom: 10px
+            @media (max-width: $mobile)
+                font-size: 28px
     &__items
         list-style-position: inside
         font-weight: 500
         font-size: 32px
         line-height: 39px
+        @media (max-width: $mobile)
+            font-size: 22px
+            line-height: 24px
     &__item
         margin-bottom: 12px
         &:last-of-type

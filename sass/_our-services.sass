@@ -13,6 +13,8 @@
                 display: flex
                 list-style: none
                 gap: 25px
+                @media (max-width: $mobile)
+                    flex-flow: column
             &__body
                 position: relative
 
@@ -42,6 +44,11 @@
         padding: 7px 20px 23px
         margin-bottom: 50px
         border-radius: 25px
+        @media (max-width: $mobile)
+            justify-items: center
+            grid-template-columns: 1fr
+            grid-template-areas: "title" "img" "price" "text"
+            row-gap: 12px
 
         &-img
             grid-area: img
@@ -56,6 +63,11 @@
             text-transform: uppercase
             color: $white
             margin-bottom: 7px
+
+        &-sales, &-descr
+            margin-left: 25px
+            @media (max-width: $mobile)
+                margin-left: 0
         &-sales
             grid-area: price
             border: 2px solid #fff
@@ -67,8 +79,8 @@
             justify-content: space-around
             flex-flow: wrap
             max-height: 113px
-            margin-left: 25px
             margin-bottom: 15px
+
         &-descr
             grid-area: text
             border: 2px solid #FFFFFF
@@ -78,7 +90,10 @@
             display: flex
             justify-content: center
             flex-flow: wrap
-            margin-left: 25px
+
+            @media (max-width: $mobile)
+                padding: 10px 6px 16px
+
             .services__block-text
                 font-weight: 500
                 font-size: 24px
@@ -90,6 +105,8 @@
             text-align: center
             margin-bottom: 19px
             flex-basis: 100%
+            @media (max-width: $mobile)
+                margin-bottom: 10px
 
         &-start, &-end
             font-weight: 400
@@ -97,6 +114,8 @@
             line-height: 39px
             display: flex
             align-items: center
+            @media (max-width: $mobile)
+                font-size: 26px
         &-all
             font-weight: 500
             font-size: 24px
