@@ -1020,9 +1020,21 @@ body {
   display: grid;
   justify-content: space-around;
 }
+@media (max-width: 850px) {
+  .contacts {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+  }
+}
 .contacts__title {
   margin-bottom: 73px;
   grid-column: 1/3;
+}
+@media (max-width: 850px) {
+  .contacts__title {
+    grid-column: auto;
+    margin-bottom: 0;
+  }
 }
 .contacts__address-title, .contacts__address address {
   padding-left: 30px;
@@ -1070,6 +1082,12 @@ body {
   grid-template-rows: repeat(auto-fit, 1fr);
   justify-content: space-between;
 }
+@media (max-width: 850px) {
+  .contacts-form__body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
 .contacts-form__input {
   grid-column: 1/2;
   background: transparent;
@@ -1105,6 +1123,11 @@ body {
   border-radius: 10px;
   border: 2px solid rgba(27, 163, 207, 0.5);
 }
+@media (max-width: 850px) {
+  .contacts-form__input-img:hover::after {
+    left: -13rem;
+  }
+}
 .contacts-form__input_block {
   position: relative;
   display: flex;
@@ -1124,6 +1147,11 @@ body {
   resize: none;
   justify-self: end;
   background: transparent;
+}
+@media (max-width: 850px) {
+  .contacts-form textarea {
+    justify-self: start;
+  }
 }
 .contacts-form small {
   grid-column: 1/3;
@@ -1147,6 +1175,17 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+}
+@media (max-width: 850px) {
+  .contacts-form__btn {
+    padding: 10px 120px;
+  }
+}
+@media (max-width: 850px) {
+  .contacts-form__input, .contacts-form textarea, .contacts-form small, .contacts-form__btn {
+    grid-column: auto;
+    grid-row: auto;
+  }
 }
 
 .relative {
