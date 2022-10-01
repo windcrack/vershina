@@ -30,9 +30,9 @@
             <li class="persona__body">1998 г. - Интернатура по детской неврологии в Центре охраны здоровья матери и ребенка (Кишинев, Молдова).</li>
         </ul>
     </section>
-    <section class="persona-courses">
+    <section class="persona-courses ">
         <h2 class="persona__title">Курсы повышения квалификации:</h2>
-        <ul class="persona__lists">
+        <ul class="persona__lists ">
             <li class="persona__body">1997 г. - Государственный Университет Медицины и Фармации (Кишинев, Молдова). </li>
             <li class="persona__body">1998 г. - Интернатура по детской неврологии в Центре охраны здоровья матери и ребенка (Кишинев, Молдова).</li>
             <li class="persona__body">1998 г. - Интернатура по детской неврологии в Центре охраны здоровья матери и ребенка (Кишинев, Молдова).</li>
@@ -42,12 +42,12 @@
     </section>
     <section class="persona-diploms">
         <h2 class="persona__title">Дипломы и сертификаты:</h2>
-        <div class="persona-diploms__body">
-            <ul class="persona-diploms__wrapper">
-                <li class="persona-diploms__block"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
-                <li class="persona-diploms__block"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
-                <li class="persona-diploms__block"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
-                <li class="persona-diploms__block"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
+        <div class="persona-diploms__body swiper">
+            <ul class="persona-diploms__wrapper swiper-wrapper">
+                <li class="persona-diploms__block swiper-slide"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
+                <li class="persona-diploms__block swiper-slide"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
+                <li class="persona-diploms__block swiper-slide"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
+                <li class="persona-diploms__block swiper-slide"><img src="img/photos/diplom1.png" alt="Диплом" class="persona-disploms__img"></li>
             </ul>
         </div>
     </section>

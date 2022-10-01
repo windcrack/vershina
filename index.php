@@ -49,30 +49,33 @@
                 <a class="hero__footer-link" href="tel:+74812294454">Позвонить нам по телефону</a>
             </footer>
         </section>
-        <section class="slider-main">
+        <section class="slider-main swiper">
             <h2>Наш центр:</h2>
-            <img src="img/slider-main/img1.jpg" alt="Картинка центра">
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="img/slider-main/img1.jpg" alt="Картинка центра">
+                <img class="swiper-slide" src="img/slider-main/img2.jpg" alt="Картинка центра">
+            </div>
         </section>
         <section class="our-services">
             <h2>Наши услуги:</h2>
             <div class="our-services__lists">
                 <div class="our-services__body">
-                    <a href="#" class="our-services__title">Тип мед. учреждения</a>
+                    <a href="our-services.php" class="our-services__title">Тип мед. учреждения</a>
                     <span class="our-services__amount">всего: 8 учериждений</span>
-                    <a href="#" class="btn btn__service">Подробнее</a>
+                    <a href="our-services.php" class="btn btn__service">Подробнее</a>
                 </div>
                 <div class="our-services__body">
-                    <a href="#" class="our-services__title">Тип мед. учреждения</a>
+                    <a href="our-services.php" class="our-services__title">Тип мед. учреждения</a>
                     <span class="our-services__amount">всего: 8 учериждений</span>
-                    <a href="#" class="btn btn__service">Подробнее</a>
+                    <a href="our-services.php" class="btn btn__service">Подробнее</a>
                 </div>
                 <div class="our-services__body">
-                    <a href="#" class="our-services__title">Тип мед. учреждения</a>
+                    <a href="our-services.php" class="our-services__title">Тип мед. учреждения</a>
                     <span class="our-services__amount">всего: 8 учериждений</span>
-                    <a href="#" class="btn btn__service">Подробнее</a>
+                    <a href="our-services.php" class="btn btn__service">Подробнее</a>
                 </div>
             </div>
-            <a href="#" class="btn btn__our-services">Посмотреть все услуги</a>
+            <a href="our-services.php" class="btn btn__our-services">Посмотреть все услуги</a>
         </section>
         <section class="reviews">
             <h2>Отзывы о нас:</h2>

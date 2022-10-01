@@ -27,6 +27,8 @@
             </symbol>
         </defs>
     </svg>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="js/main.js"></script>
 </body>
 

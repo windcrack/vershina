@@ -910,6 +910,9 @@ body {
   list-style: none;
   justify-content: space-between;
 }
+.persona-diploms__block {
+  max-width: 255px;
+}
 
 .specialization {
   margin-bottom: 36px;
