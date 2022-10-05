@@ -15,7 +15,7 @@
     &:active
         box-shadow: 0px 0px 0px 0px $blue
 
-    &__call, &__hero-footer, &__service, &__our-services, &__reviews
+    &__call, &__hero-footer, &__service, &__our-services, &__reviews, &__modal
         background: $green
 
     &__call
@@ -44,3 +44,8 @@
         padding: 11px 67px
         width: fit-content
         margin: auto
+    &__modal
+        padding: 11px 47px
+        margin: 0 auto 14px 62px
+        @media (max-width: $mobile)
+            margin: 0 auto 14px

@@ -1,14 +1,33 @@
     <div class="call-block">
-        <button class="btn call-block__body">
+        <button class="btn call-block__body js-button">
             <svg class="call-block__img">
                 <use xlink:href="#call-img"></use>
             </svg>
-    </div>
+        </button>
     </div>
     <footer>
 
     </footer>
     <!-- Modal -->
+    <div class="modal-body">
+        <div class="modal-block">
+            <div class="modal-body__cross"><i class="fa-solid fa-xmark"></i></div>
+            <h2 class="modal-body__title">Заполните форму</h2>
+            <form action="" class="modal-form">
+                <input type="text" class="modal-form__input contacts-form__input" placeholder="Ваше имя">
+                <div class="contacts-form__input_block">
+                    <input type="text" class="contacts-form__input" placeholder="Кто обращается">
+                    <div class="contacts-form__input-img" data-title="Возможн указать вымешленное имя по которму наши специалисты будут обращатся к Вам">
+                        <img src="img/svg/quest.svg" alt="" />
+                    </div>
+                </div>
+                <input type="tel" class="modal-form__input contacts-form__input" placeholder="Ваш Телефон">
+                <textarea class="contacts-form__text" class="modal-form__text" placeholder="Опишите Ваш запрос"></textarea>
+                <button class="btn btn__modal">Заказать звонок</button>
+                <p class="modal-form__policity">Нажимая на кнопку, я соглашаюсь с условиями обработки и использования моих персональных данных</p>
+            </form>
+        </div>
+    </div>
     <!-- SVG -->
 
     <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

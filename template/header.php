@@ -29,7 +29,7 @@
             <div class="call">
                 <span class="call__title" aria-label="label">Круглосуточно и ананимно:</span>
                 <a class="call__phone" href="tel:+74812294454">+7(481) 229-44-54</a>
-                <button class="btn btn__call">Заказать звонок</button>
+                <button class="btn btn__call js-button">Заказать звонок</button>
             </div>
         </div>
     </header>

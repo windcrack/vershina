@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <input type="tel" class="contacts-form__input" placeholder="Номер телефона">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Опишите Ваш запрос"></textarea>
+                <textarea class="contacts-form__text" placeholder="Опишите Ваш запрос"></textarea>
                 <small>Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных в соответсвии с Политикой конфеденциальности</small>
                 <button type="submit" class="contacts-form__btn">Отправить</button>
             </form>

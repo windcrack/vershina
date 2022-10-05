@@ -45,7 +45,7 @@
                     вещи — безусловно открывает новые горизонты для прогресса профессионального сообщества.</p>
             </div>
             <footer class="hero__footer">
-                <button class="btn btn__hero-footer">Заказать звонок</button>
+                <button class="btn btn__hero-footer js-button">Заказать звонок</button>
                 <a class="hero__footer-link" href="tel:+74812294454">Позвонить нам по телефону</a>
             </footer>
         </section>

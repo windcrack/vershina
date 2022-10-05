@@ -1,6 +1,10 @@
 const navTopItems = document.querySelectorAll('.nav-top__item');
 const mobMenuLists = document.querySelector('.mob-menu__lists');
 const mobButton = document.querySelector('.mob-menu__btn');
+const buttons = document.querySelectorAll('.js-button');
+const mainForm = document.querySelector('.modal-body');
+const cross = document.querySelector('.modal-body__cross');
+
 
 function showElem(btn, elem){
     btn.addEventListener('click', (e) =>{
@@ -45,3 +49,32 @@ const sliderDiplom = new Swiper('.persona-diploms__body', {
     slidesPerView: 4,
     spaceBetween: 30,
 })
+
+// modal
+
+function showModal(elems = [], elemForm){
+    if(elems.length > 0 && elemForm !== null){
+        [...elems].forEach(elem => {
+            elem.addEventListener('click', ()=>{
+                elemForm.classList.toggle('show');
+            })
+        })
+    }
+    
+}
+
+function closeForm(elem, modal){
+    elem.addEventListener('click', (e)=>{
+        modal.classList.toggle('show');
+    })
+}
+
+mainForm.addEventListener('click', (e)=>{
+    if(e.target.classList.contains('modal-body')) mainForm.classList.toggle('show')
+})
+
+closeForm(cross, mainForm);
+
+
+
+showModal(buttons, mainForm);

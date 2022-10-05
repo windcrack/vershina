@@ -49,7 +49,7 @@
 .btn:active {
   box-shadow: 0px 0px 0px 0px #1BA3CF;
 }
-.btn__call, .btn__hero-footer, .btn__service, .btn__our-services, .btn__reviews {
+.btn__call, .btn__hero-footer, .btn__service, .btn__our-services, .btn__reviews, .btn__modal {
   background: #3ECA78;
 }
 .btn__call {
@@ -87,6 +87,15 @@
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
+}
+.btn__modal {
+  padding: 11px 47px;
+  margin: 0 auto 14px 62px;
+}
+@media (max-width: 850px) {
+  .btn__modal {
+    margin: 0 auto 14px;
+  }
 }
 
 .typo h1, .typo h2, .typo h3 {
@@ -178,6 +187,10 @@ body {
 
 .hide {
   display: none;
+}
+
+.show {
+  display: flex !important;
 }
 
 .title-second {
@@ -1179,7 +1192,7 @@ body {
   align-center: center;
   gap: 14px;
 }
-.contacts-form textarea {
+.contacts-form__text {
   grid-column: 2/3;
   grid-row: 1/4;
   border: 3px solid #000;
@@ -1194,7 +1207,7 @@ body {
   background: transparent;
 }
 @media (max-width: 850px) {
-  .contacts-form textarea {
+  .contacts-form__text {
     justify-self: start;
   }
 }
@@ -1321,4 +1334,63 @@ body {
 
 .patients__title {
   margin-bottom: 21px;
+}
+
+.modal-body {
+  background: rgba(27, 163, 207, 0.3);
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 46px;
+}
+.modal-body__cross {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.modal-block {
+  max-width: 653px;
+  background: #EEF7F8;
+  padding: 28px 65px 20px 111px;
+  border-radius: 20px;
+  position: relative;
+}
+@media (max-width: 850px) {
+  .modal-block {
+    padding: 14px;
+  }
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 477px;
+}
+.modal-form .contacts-form__input {
+  max-width: 435px;
+}
+.modal-form .contacts-form__text {
+  width: 91%;
+  margin-bottom: 14px;
+}
+@media (max-width: 850px) {
+  .modal-form .contacts-form__text {
+    width: 100%;
+  }
+}
+.modal-form__policity {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }/*# sourceMappingURL=index.css.map */
