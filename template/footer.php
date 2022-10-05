@@ -5,8 +5,10 @@
             </svg>
         </button>
     </div>
-    <footer>
-
+    <footer class="container">
+        <!-- <div class="footer">
+            <div class="footer__copy">Врешина Смоленск 2022</div>
+        </div> -->
     </footer>
     <!-- Modal -->
     <div class="modal-body">
